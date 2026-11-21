@@ -1,0 +1,32 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage{isabelle,isabellesym}
+\usepackage{amssymb}
+\usepackage{pdfsetup}
+\urlstyle{rm}
+\isabellestyle{it}
+
+\begin{document}
+
+\title{Weak-Head Normalizability of $\lambda_{env}$\\and its Characterization by Intersection Types}
+\author{Shin-ya Nishizaki \and Shogo Murasaki}
+\maketitle
+
+\begin{abstract}
+For the calculus $\lambda_{env}$ with first-class environments we define weak-head
+reduction (full $\sigma$ together with head $\beta$), classify weak-head normal forms into
+neutral terms, values and clashes, and prove that a term is typable with an essential
+type in an intersection type system with $\omega$ and environment types if and only if it
+reaches a clash-free weak-head normal form, if and only if all its weak-head reductions
+terminate in clash-free normal forms.  Restricted to pure $\lambda$-terms the notions
+coincide with weak-head normalizability of the $\lambda$-calculus and with the classical
+characterization by intersection types.
+\end{abstract}
+
+\tableofcontents
+
+\parindent 0pt\parskip 0.5ex
+
+\input{session}
+
+\end{document}

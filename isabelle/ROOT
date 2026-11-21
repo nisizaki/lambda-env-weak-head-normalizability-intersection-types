@@ -1,0 +1,28 @@
+chapter LambdaEnvWeakHead
+
+session LambdaEnvWeakHead = HOL +
+  description "
+    Weak-head normalizability of lambda_env and its characterization by
+    intersection types.
+  "
+  options [document_output = "output", document_variants = "document:outline=/proof,/ML",
+    quick_and_dirty = false, skip_proofs = false]
+  theories
+    ARS
+    Syntax
+    Reduction
+    Sig_Confluence
+    WHNF_Classes
+    Lambda
+    Readback
+    Typing
+    Completeness
+    Soundness
+    Main_Results
+    Examples
+    CDV
+    Classical
+    Uniform
+    Final
+  document_files
+    "root.tex"
